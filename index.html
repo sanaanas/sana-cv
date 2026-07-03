@@ -23,7 +23,18 @@
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu"
+                aria-label="Toggle menu">
+                <span></span>
+            </button>
         </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
     </header>
 
     <main>
@@ -47,30 +58,35 @@
             <p class="eyebrow">Skills</p>
             <h2>Test suite: current capability</h2>
             <div class="suite">
-                <div>
-                    <span>PASS</span>
-                    <div><strong>HTML5 &amp; CSS3</strong><span>Semantic markup, responsive layout with Flexbox/Grid,
+                <div class="suite-row">
+                    <span class="status pass">PASS</span>
+                    <div class="desc"><strong>HTML5 &amp; CSS3</strong><span>Semantic markup, responsive layout with
+                            Flexbox/Grid,
                             mobile-first media queries — this page.</span></div>
                 </div>
-                <div>
-                    <span>IN PROGRESS</span>
-                    <div><strong>JavaScript</strong><span>DOM manipulation, event handling, and small interactive
+                <div class="suite-row">
+                    <span class="status progress">IN PROGRESS</span>
+                    <div class="desc"><strong>JavaScript</strong><span>DOM manipulation, event handling, and small
+                            interactive
                             features — the nav toggle and terminal animation on this page are hand-written, no
                             framework.</span></div>
                 </div>
-                <div>
-                    <span>IN PROGRESS</span>
-                    <div><strong>Playwright</strong><span>Browser automation, building on years of TestCafe scripting at
+                <div class="suite-row">
+                    <span class="status progress">IN PROGRESS</span>
+                    <div class="desc"><strong>Playwright</strong><span>Browser automation, building on years of TestCafe
+                            scripting at
                             Booking.com.</span></div>
                 </div>
-                <div>
-                    <span>PASS</span>
-                    <div><strong>Test Automation &amp; API Testing</strong><span>TestCafe, Postman, JMeter, SQL — five
+                <div class="suite-row">
+                    <span class="status pass">PASS</span>
+                    <div class="desc"><strong>Test Automation &amp; API Testing</strong><span>TestCafe, Postman, JMeter,
+                            SQL — five
                             years of daily use validating production systems.</span></div>
                 </div>
-                <div>
-                    <span>PASS</span>
-                    <div><strong>Accessibility (WCAG 2.1)</strong><span>Led quarterly accessibility audits; this site
+                <div class="suite-row">
+                    <span class="status pass">PASS</span>
+                    <div class="desc"><strong>Accessibility (WCAG 2.1)</strong><span>Led quarterly accessibility audits;
+                            this site
                             follows semantic HTML and keyboard-navigable practices as standard.</span></div>
                 </div>
             </div>
@@ -79,20 +95,23 @@
         <section id="experience" class="wrap">
             <p class="eyebrow">Experience</p>
             <h2>Where this comes from</h2>
-            <div>
-                <div>
-                    <span> 2025 - Present</span>
-                    <div><span>Career break &amp; Upskilling</span><br><span>Building Playwright, JavaScript and
+            <div class="timeline">
+                <div class="tl-item">
+                    <span class="tl-date"> 2025 - Present</span>
+                    <div><span class="tl-role"> Career break &amp; Upskilling</span><br><span class="tl-desc">Building
+                            Playwright, JavaScript and
                             HTML/CSS skills; building this site as the first shipped piece of it.</span></div>
                 </div>
-                <div>
-                    <span>2020 - 2025</span>
-                    <div><span>Senior Software Test Engineer, Booking.com</span><br><span>Sole embedded QA engineer
+                <div class="tl-item">
+                    <span class="tl-date">2020 - 2025</span>
+                    <div><span class="tl-role">Senior Software Test Engineer, Booking.com</span><br><span
+                            class="tl-desc">Sole embedded QA engineer
                             across 10–20 services; automation, API testing, accessibility audits.</span></div>
                 </div>
                 <div>
-                    <span>2013 - 2020</span>
-                    <div><span>FDM Group - DWP, Barclays, Babcock International</span><br><span>Integration testing, UAT
+                    <span class="tl-date">2013 - 2020</span>
+                    <div><span class="tl-role">FDM Group - DWP, Barclays, Babcock International</span><br><span
+                            class="tl-desc">Integration testing, UAT
                             leadership, mobile and backend validation across finance, government and defence.</span>
                     </div>
                 </div>
@@ -102,14 +121,16 @@
         <section id="projects" class="wrap">
             <p class="eyebrow">Projects</p>
             <h2>What I am building</h2>
-            <div>
-                <h3>This site</h3>
-                <p>Hand-written HTML/CSS/JS, mobile-first, no framework. Source on GitHub.</p>
-                <a href="https://github.com/sanaanas/sana-cv" target="_blank">View Repository</a>
-            </div>
-            <div>
-                <h3>Playwright practice suite</h3>
-                <p>Coming soon</p>
+            <div class="projects">
+                <div class="card">
+                    <h3>This site</h3>
+                    <p>Hand-written HTML/CSS/JS, mobile-first, no framework. Source on GitHub.</p>
+                    <a href="https://github.com/sanaanas/sana-cv" target="_blank">View Repository</a>
+                </div>
+                <div class="card">
+                    <h3>Playwright practice suite</h3>
+                    <p>Coming soon</p>
+                </div>
             </div>
         </section>
 
