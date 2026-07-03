@@ -14,15 +14,25 @@
 <body>
 
     <header>
-        <nav>
+        <nav class="wrap" aria-label="Main navigation">
+            <div class="brand">sana<span>@</span>dev</div>
+            <div>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
+
     <main>
         <section class="hero wrap">
             <h1>Sana Nawaz</h1>
             <p>Senior QA Engineer moving into software development — bringing 5+ years of testing high-traffic
                 production systems, now writing the code instead of just breaking it.</p>
         </section>
+
         <section id="about" class="wrap">
             <p class="eyebrow">About</p>
             <h2>Why I'm moving from QA into development</h2>
@@ -39,33 +49,68 @@
             <div class="suite">
                 <div>
                     <span>PASS</span>
-                    <div><strong>HTML5 &amp; CSS3</strong><span>Semantic markup, responsive layout with Flexbox/Grid, mobile-first media queries — this page.</span></div>
+                    <div><strong>HTML5 &amp; CSS3</strong><span>Semantic markup, responsive layout with Flexbox/Grid,
+                            mobile-first media queries — this page.</span></div>
                 </div>
                 <div>
                     <span>IN PROGRESS</span>
-                    <div><strong>JavaScript</strong><span>DOM manipulation, event handling, and small interactive features — the nav toggle and terminal animation on this page are hand-written, no framework.</span></div>
+                    <div><strong>JavaScript</strong><span>DOM manipulation, event handling, and small interactive
+                            features — the nav toggle and terminal animation on this page are hand-written, no
+                            framework.</span></div>
                 </div>
                 <div>
                     <span>IN PROGRESS</span>
-                    <div><strong>Playwright</strong><span>Browser automation, building on years of TestCafe scripting at Booking.com.</span></div>
+                    <div><strong>Playwright</strong><span>Browser automation, building on years of TestCafe scripting at
+                            Booking.com.</span></div>
                 </div>
                 <div>
                     <span>PASS</span>
-                    <div><strong>Test Automation &amp; API Testing</strong><span>TestCafe, Postman, JMeter, SQL — five years of daily use validating production systems.</span></div>
+                    <div><strong>Test Automation &amp; API Testing</strong><span>TestCafe, Postman, JMeter, SQL — five
+                            years of daily use validating production systems.</span></div>
                 </div>
                 <div>
                     <span>PASS</span>
-                    <div><strong>Accessibility (WCAG 2.1)</strong><span>Led quarterly accessibility audits; this site follows semantic HTML and keyboard-navigable practices as standard.</span></div>
+                    <div><strong>Accessibility (WCAG 2.1)</strong><span>Led quarterly accessibility audits; this site
+                            follows semantic HTML and keyboard-navigable practices as standard.</span></div>
                 </div>
             </div>
         </section>
 
         <section id="experience" class="wrap">
             <p class="eyebrow">Experience</p>
+            <h2>Where this comes from</h2>
+            <div>
+                <div>
+                    <span> 2025 - Present</span>
+                    <div><span>Career break &amp; Upskilling</span><br><span>Building Playwright, JavaScript and
+                            HTML/CSS skills; building this site as the first shipped piece of it.</span></div>
+                </div>
+                <div>
+                    <span>2020 - 2025</span>
+                    <div><span>Senior Software Test Engineer, Booking.com</span><br><span>Sole embedded QA engineer
+                            across 10–20 services; automation, API testing, accessibility audits.</span></div>
+                </div>
+                <div>
+                    <span>2013 - 2020</span>
+                    <div><span>FDM Group - DWP, Barclays, Babcock International</span><br><span>Integration testing, UAT
+                            leadership, mobile and backend validation across finance, government and defence.</span>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="projects" class="wrap">
             <p class="eyebrow">Projects</p>
+            <h2>What I am building</h2>
+            <div>
+                <h3>This site</h3>
+                <p>Hand-written HTML/CSS/JS, mobile-first, no framework. Source on GitHub.</p>
+                <a href="https://github.com/sanaanas/sana-cv" target="_blank">View Repository</a>
+            </div>
+            <div>
+                <h3>Playwright practice suite</h3>
+                <p>Coming soon</p>
+            </div>
         </section>
 
         <section id="contact" class="wrap">
@@ -73,8 +118,11 @@
             <h2>Lets talk</h2>
             <p>Open to Open to junior developer and QA automation roles — hybrid or remote, Manchester-based. Hybrid or
                 remote opportunities welcome.</p>
-            <a href="mailto:sana.nawaz321@gmail.com">sana.nawaz321@gmail.com</a>
-            <a href="https://www.linkedin.com/in/sananawaz/">LinkedIn</a>
+            <div>
+                <a href="mailto:sana.nawaz321@gmail.com">sana.nawaz321@gmail.com</a>
+                <a href="https://www.linkedin.com/in/sananawaz/">LinkedIn</a>
+            </div>
+
         </section>
     </main>
 </body>
