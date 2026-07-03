@@ -1,0 +1,50 @@
+body {
+    background-color: #f5f5ff;
+}
+
+div {
+    margin: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: verdana;
+    text-align: center;
+}
+
+address {
+    font-family: Verdana;
+    text-align: center;
+}
+
+h2 {
+    font-family: verdana;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5f5ff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #5e0080;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #f8e5ff;
+    background-color: #5e0080;
+}
