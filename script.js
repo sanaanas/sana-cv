@@ -14,7 +14,7 @@ navToggle.addEventListener('click', () => {
   });
 
     // Terminal typing + test results reveal
-    
+
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const typedEl = document.getElementById('typed-line');
   const resultsEl = document.getElementById('test-results');
