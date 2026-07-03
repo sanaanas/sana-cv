@@ -450,3 +450,39 @@ footer a {
     color: var(--ink);
     border-bottom: 1px solid var(--line);
 }
+
+/* Continuous Learning */
+
+.learning-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:14px;
+}
+@media(min-width:640px){
+  .learning-grid{grid-template-columns:1fr 1fr 1fr;}
+}
+
+.learning-card{
+  border:1px solid var(--line);
+  border-radius:10px;
+  padding:16px;
+  background:var(--paper-dim);
+}
+.learning-card h3{
+  font-size:0.95rem;
+  margin:8px 0 4px;
+}
+.learning-status{
+  font-family:var(--mono);
+  font-size:0.72rem;
+  font-weight:700;
+  padding:3px 8px;
+  border-radius:5px;
+  display:inline-block;
+}
+.learning-status.pass{color:var(--pass); background:var(--pass-bg);}
+.learning-status.progress{color:var(--progress); background:var(--progress-bg);}
+.learning-provider{
+  font-size:0.82rem;
+  color:#5b6470;
+}
